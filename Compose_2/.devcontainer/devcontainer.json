@@ -1,0 +1,12 @@
+{
+  "name": "Project with MongoDB Dependency",
+  "image": "ubuntu:latest",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "db",
+
+  "forwardPorts": [27017],
+
+  "postCreateCommand": "echo 'Successfully started MongoDB container'",
+}
