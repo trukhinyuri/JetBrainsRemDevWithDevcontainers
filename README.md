@@ -57,6 +57,11 @@ In this example, the use of DevContainer Features is demonstrated.
 A feature - support for Golang - is installed on the selected image.
 You can try to build the application in the DevContainer and convert a jpg into an ascii image.
 
-### Compose_2
+### Compose_2 – devcontainer.json for a Golang project using Docker Compose and having a legacy MongoDB dependency.
+In this example, we launch a DevContainer from Goland (make sure to open the project correctly in this IDE).
+By clicking on the gutter in devcontainer.json, our docker-compose.yml will spin up a dependency – an older version of MongoDB
+in a separate container, and the main container with Go for development. We can connect to the database from the Database
+Explorer in Goland using the host address: mongodb. We can build the project with go build and test its functionality.
+All necessary dependencies are already set up.
 
 
