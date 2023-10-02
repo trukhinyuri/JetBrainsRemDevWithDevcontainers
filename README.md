@@ -52,7 +52,7 @@ In this repository, you will find several examples that will help you learn how 
 You can try running the script on your desktop operating system and in the DevContainer.
 This is the simplest example.
 
-### UseFeatures_1
+### UseFeatures_1 – Simple devcontainer.json features example
 In this example, the use of DevContainer Features is demonstrated.
 A feature - support for Golang - is installed on the selected image.
 You can try to build the application in the DevContainer and convert a jpg into an ascii image.

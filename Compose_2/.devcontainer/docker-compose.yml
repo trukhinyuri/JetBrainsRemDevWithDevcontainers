@@ -1,17 +1,12 @@
 version: '3.8'
+
 services:
-  db:
-    image: mongo:latest
+  mongodb:
+    image: mongo:4.2.16
     restart: always
-    volumes:
-      - mongodb-data:/data/db
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: password
     ports:
       - "27017:27017"
-    network_mode: bridge
-
-volumes:
-  mongodb-data:
-    driver: local
+  devcontainer:
+    image: golang:latest
+    depends_on:
+      - mongodb

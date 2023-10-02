@@ -1,12 +1,7 @@
 {
-  "name": "Project with MongoDB Dependency",
-  "image": "ubuntu:latest",
-  "dockerComposeFile": [
-    "docker-compose.yml"
-  ],
-  "service": "db",
-
-  "forwardPorts": [27017],
-
-  "postCreateCommand": "echo 'Successfully started MongoDB container'",
+  "name": "Compose in devcontainer example",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/IdeaProjects/Compose_2/",
+  "forwardPorts": [27017, 3001]
 }
