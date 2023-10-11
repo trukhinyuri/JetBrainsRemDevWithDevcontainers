@@ -1,0 +1,9 @@
+{
+  "name": "Compose in devcontainer example",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "devcontainer",
+  "forwardPorts": [3002]
+}
+
+
+

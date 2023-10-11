@@ -1,7 +1,0 @@
-{
-  "name": "Compose in devcontainer example",
-  "dockerComposeFile": "./docker-compose.yml",
-  "service": "devcontainer",
-  "workspaceFolder": "/IdeaProjects/Compose_2/",
-  "forwardPorts": [27017, 3001]
-}

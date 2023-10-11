@@ -1,0 +1,7 @@
+{
+  "name": "Go Development Container",
+  "image": "ubuntu:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {}
+  }
+}
