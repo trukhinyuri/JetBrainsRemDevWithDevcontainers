@@ -1,6 +1,6 @@
 {
   "name": "Go Development Container",
-  "image": "ubuntu:latest",
+  "image": "openjdk:11",
   "features": {
     "ghcr.io/devcontainers/features/go:1": {}
   }

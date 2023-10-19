@@ -1,8 +1,9 @@
 {
-  "name": "Compose in devcontainer example",
+  "name": "Develop with database and mq",
   "dockerComposeFile": "./docker-compose.yml",
   "service": "devcontainer",
-  "forwardPorts": [3002]
+  "runServices": ["mongodb"],
+  "forwardPorts": [3002, "mongodb:27001"]
 }
 
 

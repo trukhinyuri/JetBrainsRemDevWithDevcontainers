@@ -1,4 +1,4 @@
 {
-  "name": "My First Ubuntu Dev Container",
+  "name": "Alpine",
   "image": "alpine:latest"
 }
