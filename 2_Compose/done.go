@@ -22,7 +22,7 @@ var versionPtr *bool
 
 func init() {
 	dbUpgradePtr = flag.Bool("dbupgrade", false, "Upgrade database for new version compatibility")
-	servicePortPtr = flag.Int("port", 3001, "Service port")
+	servicePortPtr = flag.Int("port", 3003, "Service port")
 	versionPtr = flag.Bool("version", false, "Show app version")
 }
 
